@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+    <h1>0</h1>
+    <div class="div1">1</div>
+    <div class="div2">2</div>
+    <div class="div3">3</div>
+    <div class="div4">4</div>
+    <div class="div5">5</div>
+    <script type="text/javascript">
+	$(".div1").on("click",function(){
+		now_point = $("h1").text()
+		now_point = parseInt(now_point)
+		next_point = now_point + 1
+		$("h1").text(next_point)
+	})
+	$(".div2").on("click",function(){
+		now_point = $("h1").text()
+		now_point = parseInt(now_point)
+		next_point = now_point + 2
+		$("h1").text(next_point)
+	})
+	$(".div3").on("click",function(){
+		now_point = $("h1").text()
+		now_point = parseInt(now_point)
+		next_point = now_point + 3
+		$("h1").text(next_point)
+	})
+	$(".div4").on("click",function(){
+		now_point = $("h1").text()
+		now_point = parseInt(now_point)
+		next_point = now_point + 4
+		$("h1").text(next_point)
+	})
+	$(".div5").on("click",function(){
+		now_point = $("h1").text()
+		now_point = parseInt(now_point)
+		next_point = now_point + 5
+		$("h1").text(next_point)
+	})
+    </script>
+</body>
+</html>
